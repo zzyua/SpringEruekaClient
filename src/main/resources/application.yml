@@ -2,11 +2,10 @@ server:
   port: 8088
 spring:
   application:
-    name: client1-service
+    name: hello-service
 eureka:
   client:
     service-url:
       defaultZone: http://peer1:1111/eureka/,http://peer2:1112/eureka/
 #      defaultZone: http://eureka.didispace.com/eureka/
-  instance:
-    prefer-ip-address: true 
+
